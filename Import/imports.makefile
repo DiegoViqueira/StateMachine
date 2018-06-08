@@ -1,0 +1,35 @@
+ABSE_VER_HI := 2-6
+ABSE_VER_LO := 0-6
+
+STORE_VER_HI := 3-0
+STORE_VER_LO := 1-0
+
+ASRV_VER_HI := 3-0
+ASRV_VER_LO := 0-0
+
+POST_EV_VER_HI := 3-2
+POST_EV_VER_LO := 0-0
+
+RTDB_VER_HI := 2-6
+RTDB_VER_LO := 0-0
+
+
+TOOLS_VER_HI := 1-0
+TOOLS_VER_LO := 0-15
+
+AGENT_VER_HI := 2-0
+AGENT_VER_LO := 0-0
+
+
+
+
+########No utilizados en getImports###############
+RDMCORE_VER_HI := 1-4
+RDMCORE_VER_LO := 0-0
+
+RDMIMPORTER_VER_HI := 1-3
+RDMIMPORTER_VER_LO := 0-0
+
+RDMCOMMANDS_VER_HI := 1-4
+RDMCOMMANDS_VER_LO := 0-0
+

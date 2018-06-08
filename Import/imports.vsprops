@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<VisualStudioPropertySheet ProjectType="Visual C++" Version="8.00" Name="Imports">
+    <!-- ABSE -->
+    <UserMacro Name="ABSE_VER_HI" Value="2-6" PerformEnvironmentSet="true"/>
+    <UserMacro Name="ABSE_VER_LO" Value="0-6"  PerformEnvironmentSet="true"/>
+    <!-- STORE -->
+    <UserMacro Name="STORE_VER_HI" Value="3-0" PerformEnvironmentSet="true"/>
+    <UserMacro Name="STORE_VER_LO" Value="1-0"  PerformEnvironmentSet="true"/>
+    <!-- ASRV -->
+    <UserMacro Name="ASRV_VER_HI" Value="3-0" PerformEnvironmentSet="true"/>
+    <UserMacro Name="ASRV_VER_LO" Value="0-0"  PerformEnvironmentSet="true"/>
+    <!-- POST_EV -->
+    <UserMacro Name="POST_EV_VER_HI" Value="3-2" PerformEnvironmentSet="true"/>
+    <UserMacro Name="POST_EV_VER_LO" Value="0-0"  PerformEnvironmentSet="true"/>
+    <!-- RTDB -->
+    <UserMacro Name="RTDB_VER_HI" Value="2-6" PerformEnvironmentSet="true"/>
+    <UserMacro Name="RTDB_VER_LO" Value="0-0"  PerformEnvironmentSet="true"/>
+	<!-- TOOLS -->
+    <UserMacro Name="TOOLS_VER_HI" Value="1-0" PerformEnvironmentSet="true"/>
+    <UserMacro Name="TOOLS_VER_LO" Value="0-15"  PerformEnvironmentSet="true"/>
+	<!-- AGENT -->
+    <UserMacro Name="AGENT_VER_HI" Value="2-0" PerformEnvironmentSet="true"/>
+    <UserMacro Name="AGENT_VER_LO" Value="0-0"  PerformEnvironmentSet="true"/>
+    
+    <!--     ###########    Valores que no se usan en el getimports  #########  -->
+    <!-- RAIMADB -->
+    <UserMacro Name="RDMCORE_VER_HI" Value="1-4" PerformEnvironmentSet="true"/>
+    <UserMacro Name="RDMCORE_VER_LO" Value="0-0"  PerformEnvironmentSet="true"/>
+	<!-- RDMIMPORTER -->
+    <UserMacro Name="RDMIMPORTER_VER_HI" Value="1-3" PerformEnvironmentSet="true"/>
+    <UserMacro Name="RDMIMPORTER_VER_LO" Value="0-0"  PerformEnvironmentSet="true"/>
+	<!-- RDMCOMMANDS -->
+    <UserMacro Name="RDMCOMMANDS_VER_HI" Value="1-4" PerformEnvironmentSet="true"/>
+    <UserMacro Name="RDMCOMMANDS_VER_LO" Value="0-0"  PerformEnvironmentSet="true"/>
+	
+ </VisualStudioPropertySheet>

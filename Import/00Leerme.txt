@@ -1,0 +1,10 @@
+1) Anotar las versiones en el archivo 01versions.txt. Los módulos deben estar presentes en los archivos imports.*
+Las versiones deben tener el formato: MODULO N-N-N-N
+Poner en edición los archivos imports.*
+Las versiones que no se usan en getImports son las que se usan en el makefile o .proj para no tener que editar manualmente los valores
+Se deben actualizar los imports.* antes de compilar
+Si se agregan versiones nuevas, se debe cerrar y abrir el proyecto en visual para que tome los cambios.
+2) Correr el script 02setVersions.bat (windows) o ejecutar 02setVersions.sh (unix) que modifica los archivos de configuración
+3) Correr el script de importación correspondiente:
+Windows:    getImports.cmd
+Unix:       getImports.sh

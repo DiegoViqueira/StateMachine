@@ -1,0 +1,4 @@
+ABSE_VER=2-6-0-6
+
+export ABSE_VER
+

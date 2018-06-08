@@ -1,0 +1,29 @@
+REM ================================================================================================
+REM MODULE EXTERNAL DEPENDENCIES
+REM ================================================================================================
+
+REM ================================================================================================
+REM IMPORTS : ImportEx (needed for product build)
+REM  Format : %CVS_INCLUDE% Id  Tag  Root  From  [To]
+REM To could be a path relative to ImportEx
+REM ================================================================================================
+
+%CVS_INCLUDE% ABSE      VERSION_2-6-0-6    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/AtsBase/Export 
+%CVS_INCLUDE% STORE     VERSION_3-0-1-0    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/store/AtsStore/Export
+%CVS_INCLUDE% ASRV      VERSION_3-0-0-0    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/AtsServ/Export 
+%CVS_INCLUDE% POST_EV   VERSION_3-2-0-0    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/PostEvent/Export
+%CVS_INCLUDE% RTDB      VERSION_2-6-0-0    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/store/rtdb/rtdb/Export
+%CVS_INCLUDE% TOOLS     VERSION_1-0-0-15   /Root/Reusables/SOFT/DERM   DERM/Modulos/Tools Tools
+%CVS_INCLUDE% AGENT     VERSION_2-0-0-0   /Root/Reusables/SOFT/BCPP   BCPP/Modulos/ConfigAgent/Export 
+REM ================================================================================================
+REM RUNTIMES : ImportEx/Runtime (needed for product deployment)
+REM   Format : %CVS_RUNTIME% Id  Tag  Root  From  [To]
+REM ================================================================================================
+
+%CVS_RUNTIME% ASRV      VERSION_3-0-0-0    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/AtsServ/Runtime 
+%CVS_RUNTIME% ABSE      VERSION_2-6-0-6    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/AtsBase/runtime
+%CVS_RUNTIME% STORE     VERSION_3-0-1-0    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/store/AtsStore/Runtime
+%CVS_RUNTIME% POST_EV   VERSION_3-2-0-0    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/PostEvent/Runtime
+%CVS_RUNTIME% RTDB      VERSION_2-6-0-0    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/store/rtdb/rtdb/Runtime
+%CVS_RUNTIME% AGENT     VERSION_2-0-0-0    /Root/Reusables/SOFT/BCPP   BCPP/Modulos/ConfigAgent/Runtime
+REM ================================================================================================

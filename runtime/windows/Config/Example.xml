@@ -1,0 +1,48 @@
+<xml>
+
+    <!-- RTDB Configuration -->
+    <rtdb>
+        <name>  ./Data/RTDB </name>  <!-- RTDB Filename -->
+        <node> Example        </node>                    <!-- RTDB Store Node -->
+    </rtdb>
+    
+    <!-- Service Configuration -->
+    <service>
+        <name> Example </name>           <!-- Service Name -->
+        <description> SensIT  Service Example  </description>         <!-- Service Description -->
+ 	<!-- Cantidad de segundos despues de que la AtsServ ha recibido el comando 'StopService' durante
+       	los cuales se siguen permitiendo relanzamiento de tareas. Por defecto es 5 . -->
+     	<after_stop_relaunching type="int">  5   </after_stop_relaunching> 
+   
+        <!-- Cantidad de segundos despues de que la AtsServ ha recibido el comando 'StopService' tal que
+             una vez transcurridos AtsServ fuerza un shutdown. Por defecto es infinito. --> 
+        <after_stop_shutdown type="int">     4   </after_stop_shutdown> 
+    </service>
+     
+ <!-- Logger's Configuration Tree -->
+    <log_tree>
+ 	          <!-- Service Logger -->
+        <logger0>
+         <name>  AtsServ  </name>
+         <level>  DEBUG  </level>
+         <additive type="bool"> false </additive>
+         <appender>
+            <type>  SizedDayFileLayoutAppender </type>
+            <directory> ./Log </directory> 
+            <module_name>  AtsServ  </module_name>
+            <extension>    .log      </extension>
+            <max_file_size>  1000KB  </max_file_size>
+            <days_to_keep type="int">  7    </days_to_keep>
+            <layout>   %d{%H:%M:%S:%[m} %p %m%n    </layout>
+         </appender>
+      </logger0>
+   </log_tree>
+   
+    <!-- B2BUA Module's Configuration -->
+    <!-- Global Configuration-->
+    <global>
+    	<cpId> 1 </cpId>
+    </global> 
+    
+ 	
+</xml>
